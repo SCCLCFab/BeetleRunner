@@ -1,0 +1,569 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E79E7E1C204F974900AC0178 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E79E7E1B204F974900AC0178 /* AppDelegate.swift */; };
+		E79E7E1E204F974900AC0178 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = E79E7E1D204F974900AC0178 /* GameScene.sks */; };
+		E79E7E20204F974900AC0178 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = E79E7E1F204F974900AC0178 /* Actions.sks */; };
+		E79E7E22204F974900AC0178 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = E79E7E21204F974900AC0178 /* GameScene.swift */; };
+		E79E7E24204F974900AC0178 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E79E7E23204F974900AC0178 /* GameViewController.swift */; };
+		E79E7E27204F974900AC0178 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E79E7E25204F974900AC0178 /* Main.storyboard */; };
+		E79E7E29204F974900AC0178 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E79E7E28204F974900AC0178 /* Assets.xcassets */; };
+		E79E7E2C204F974900AC0178 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E79E7E2A204F974900AC0178 /* LaunchScreen.storyboard */; };
+		E79E7E37204F974900AC0178 /* BeetleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E79E7E36204F974900AC0178 /* BeetleTests.swift */; };
+		E79E7E42204F974900AC0178 /* BeetleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E79E7E41204F974900AC0178 /* BeetleUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E79E7E33204F974900AC0178 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E79E7E10204F974800AC0178 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E79E7E17204F974800AC0178;
+			remoteInfo = Beetle;
+		};
+		E79E7E3E204F974900AC0178 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E79E7E10204F974800AC0178 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E79E7E17204F974800AC0178;
+			remoteInfo = Beetle;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E79E7E18204F974800AC0178 /* Beetle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Beetle.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E79E7E1B204F974900AC0178 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E79E7E1D204F974900AC0178 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		E79E7E1F204F974900AC0178 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		E79E7E21204F974900AC0178 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		E79E7E23204F974900AC0178 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		E79E7E26204F974900AC0178 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E79E7E28204F974900AC0178 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E79E7E2B204F974900AC0178 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E79E7E2D204F974900AC0178 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E79E7E32204F974900AC0178 /* BeetleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BeetleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E79E7E36204F974900AC0178 /* BeetleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeetleTests.swift; sourceTree = "<group>"; };
+		E79E7E38204F974900AC0178 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E79E7E3D204F974900AC0178 /* BeetleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BeetleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E79E7E41204F974900AC0178 /* BeetleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeetleUITests.swift; sourceTree = "<group>"; };
+		E79E7E43204F974900AC0178 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E79E7E15204F974800AC0178 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E79E7E2F204F974900AC0178 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E79E7E3A204F974900AC0178 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E79E7E0F204F974800AC0178 = {
+			isa = PBXGroup;
+			children = (
+				E79E7E1A204F974800AC0178 /* Beetle */,
+				E79E7E35204F974900AC0178 /* BeetleTests */,
+				E79E7E40204F974900AC0178 /* BeetleUITests */,
+				E79E7E19204F974800AC0178 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E79E7E19204F974800AC0178 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E79E7E18204F974800AC0178 /* Beetle.app */,
+				E79E7E32204F974900AC0178 /* BeetleTests.xctest */,
+				E79E7E3D204F974900AC0178 /* BeetleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E79E7E1A204F974800AC0178 /* Beetle */ = {
+			isa = PBXGroup;
+			children = (
+				E79E7E1B204F974900AC0178 /* AppDelegate.swift */,
+				E79E7E1D204F974900AC0178 /* GameScene.sks */,
+				E79E7E1F204F974900AC0178 /* Actions.sks */,
+				E79E7E21204F974900AC0178 /* GameScene.swift */,
+				E79E7E23204F974900AC0178 /* GameViewController.swift */,
+				E79E7E25204F974900AC0178 /* Main.storyboard */,
+				E79E7E28204F974900AC0178 /* Assets.xcassets */,
+				E79E7E2A204F974900AC0178 /* LaunchScreen.storyboard */,
+				E79E7E2D204F974900AC0178 /* Info.plist */,
+			);
+			path = Beetle;
+			sourceTree = "<group>";
+		};
+		E79E7E35204F974900AC0178 /* BeetleTests */ = {
+			isa = PBXGroup;
+			children = (
+				E79E7E36204F974900AC0178 /* BeetleTests.swift */,
+				E79E7E38204F974900AC0178 /* Info.plist */,
+			);
+			path = BeetleTests;
+			sourceTree = "<group>";
+		};
+		E79E7E40204F974900AC0178 /* BeetleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E79E7E41204F974900AC0178 /* BeetleUITests.swift */,
+				E79E7E43204F974900AC0178 /* Info.plist */,
+			);
+			path = BeetleUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E79E7E17204F974800AC0178 /* Beetle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E79E7E46204F974900AC0178 /* Build configuration list for PBXNativeTarget "Beetle" */;
+			buildPhases = (
+				E79E7E14204F974800AC0178 /* Sources */,
+				E79E7E15204F974800AC0178 /* Frameworks */,
+				E79E7E16204F974800AC0178 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Beetle;
+			productName = Beetle;
+			productReference = E79E7E18204F974800AC0178 /* Beetle.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E79E7E31204F974900AC0178 /* BeetleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E79E7E49204F974900AC0178 /* Build configuration list for PBXNativeTarget "BeetleTests" */;
+			buildPhases = (
+				E79E7E2E204F974900AC0178 /* Sources */,
+				E79E7E2F204F974900AC0178 /* Frameworks */,
+				E79E7E30204F974900AC0178 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E79E7E34204F974900AC0178 /* PBXTargetDependency */,
+			);
+			name = BeetleTests;
+			productName = BeetleTests;
+			productReference = E79E7E32204F974900AC0178 /* BeetleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E79E7E3C204F974900AC0178 /* BeetleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E79E7E4C204F974900AC0178 /* Build configuration list for PBXNativeTarget "BeetleUITests" */;
+			buildPhases = (
+				E79E7E39204F974900AC0178 /* Sources */,
+				E79E7E3A204F974900AC0178 /* Frameworks */,
+				E79E7E3B204F974900AC0178 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E79E7E3F204F974900AC0178 /* PBXTargetDependency */,
+			);
+			name = BeetleUITests;
+			productName = BeetleUITests;
+			productReference = E79E7E3D204F974900AC0178 /* BeetleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E79E7E10204F974800AC0178 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "SCCLC Swift Fab";
+				TargetAttributes = {
+					E79E7E17204F974800AC0178 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					E79E7E31204F974900AC0178 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E79E7E17204F974800AC0178;
+					};
+					E79E7E3C204F974900AC0178 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E79E7E17204F974800AC0178;
+					};
+				};
+			};
+			buildConfigurationList = E79E7E13204F974800AC0178 /* Build configuration list for PBXProject "Beetle" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E79E7E0F204F974800AC0178;
+			productRefGroup = E79E7E19204F974800AC0178 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E79E7E17204F974800AC0178 /* Beetle */,
+				E79E7E31204F974900AC0178 /* BeetleTests */,
+				E79E7E3C204F974900AC0178 /* BeetleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E79E7E16204F974800AC0178 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E79E7E27204F974900AC0178 /* Main.storyboard in Resources */,
+				E79E7E1E204F974900AC0178 /* GameScene.sks in Resources */,
+				E79E7E29204F974900AC0178 /* Assets.xcassets in Resources */,
+				E79E7E2C204F974900AC0178 /* LaunchScreen.storyboard in Resources */,
+				E79E7E20204F974900AC0178 /* Actions.sks in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E79E7E30204F974900AC0178 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E79E7E3B204F974900AC0178 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E79E7E14204F974800AC0178 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E79E7E22204F974900AC0178 /* GameScene.swift in Sources */,
+				E79E7E24204F974900AC0178 /* GameViewController.swift in Sources */,
+				E79E7E1C204F974900AC0178 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E79E7E2E204F974900AC0178 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E79E7E37204F974900AC0178 /* BeetleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E79E7E39204F974900AC0178 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E79E7E42204F974900AC0178 /* BeetleUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E79E7E34204F974900AC0178 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E79E7E17204F974800AC0178 /* Beetle */;
+			targetProxy = E79E7E33204F974900AC0178 /* PBXContainerItemProxy */;
+		};
+		E79E7E3F204F974900AC0178 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E79E7E17204F974800AC0178 /* Beetle */;
+			targetProxy = E79E7E3E204F974900AC0178 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E79E7E25204F974900AC0178 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E79E7E26204F974900AC0178 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E79E7E2A204F974900AC0178 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E79E7E2B204F974900AC0178 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E79E7E44204F974900AC0178 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E79E7E45204F974900AC0178 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E79E7E47204F974900AC0178 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Beetle/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.scclc.fab.swift.Beetle;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E79E7E48204F974900AC0178 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Beetle/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.scclc.fab.swift.Beetle;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E79E7E4A204F974900AC0178 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BeetleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.scclc.fab.swift.BeetleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Beetle.app/Beetle";
+			};
+			name = Debug;
+		};
+		E79E7E4B204F974900AC0178 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BeetleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.scclc.fab.swift.BeetleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Beetle.app/Beetle";
+			};
+			name = Release;
+		};
+		E79E7E4D204F974900AC0178 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BeetleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.scclc.fab.swift.BeetleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Beetle;
+			};
+			name = Debug;
+		};
+		E79E7E4E204F974900AC0178 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BeetleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.scclc.fab.swift.BeetleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Beetle;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E79E7E13204F974800AC0178 /* Build configuration list for PBXProject "Beetle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E79E7E44204F974900AC0178 /* Debug */,
+				E79E7E45204F974900AC0178 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E79E7E46204F974900AC0178 /* Build configuration list for PBXNativeTarget "Beetle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E79E7E47204F974900AC0178 /* Debug */,
+				E79E7E48204F974900AC0178 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E79E7E49204F974900AC0178 /* Build configuration list for PBXNativeTarget "BeetleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E79E7E4A204F974900AC0178 /* Debug */,
+				E79E7E4B204F974900AC0178 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E79E7E4C204F974900AC0178 /* Build configuration list for PBXNativeTarget "BeetleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E79E7E4D204F974900AC0178 /* Debug */,
+				E79E7E4E204F974900AC0178 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E79E7E10204F974800AC0178 /* Project object */;
+}
