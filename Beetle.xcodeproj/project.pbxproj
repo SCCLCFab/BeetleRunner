@@ -13,10 +13,21 @@
 		E79E7E22204F974900AC0178 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = E79E7E21204F974900AC0178 /* GameScene.swift */; };
 		E79E7E24204F974900AC0178 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E79E7E23204F974900AC0178 /* GameViewController.swift */; };
 		E79E7E27204F974900AC0178 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E79E7E25204F974900AC0178 /* Main.storyboard */; };
-		E79E7E29204F974900AC0178 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E79E7E28204F974900AC0178 /* Assets.xcassets */; };
 		E79E7E2C204F974900AC0178 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E79E7E2A204F974900AC0178 /* LaunchScreen.storyboard */; };
 		E79E7E37204F974900AC0178 /* BeetleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E79E7E36204F974900AC0178 /* BeetleTests.swift */; };
 		E79E7E42204F974900AC0178 /* BeetleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E79E7E41204F974900AC0178 /* BeetleUITests.swift */; };
+		E79E7E50204F97BF00AC0178 /* player.atlas in Resources */ = {isa = PBXBuildFile; fileRef = E79E7E4F204F97BF00AC0178 /* player.atlas */; };
+		E79E7E52204F97C900AC0178 /* CoinSound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E79E7E51204F97C900AC0178 /* CoinSound.mp3 */; };
+		E79E7E54204F9BB000AC0178 /* GameElements.swift in Sources */ = {isa = PBXBuildFile; fileRef = E79E7E53204F9BAF00AC0178 /* GameElements.swift */; };
+		E79E7E58204FA36200AC0178 /* flower.png in Resources */ = {isa = PBXBuildFile; fileRef = E79E7E57204FA36200AC0178 /* flower.png */; };
+		E79E7E5A204FA36E00AC0178 /* bg.png in Resources */ = {isa = PBXBuildFile; fileRef = E79E7E59204FA36E00AC0178 /* bg.png */; };
+		E79E7E5C204FA39500AC0178 /* restart.png in Resources */ = {isa = PBXBuildFile; fileRef = E79E7E5B204FA39500AC0178 /* restart.png */; };
+		E79E7E5E204FA3AE00AC0178 /* play.png in Resources */ = {isa = PBXBuildFile; fileRef = E79E7E5D204FA3AD00AC0178 /* play.png */; };
+		E79E7E60204FA3D900AC0178 /* pause.png in Resources */ = {isa = PBXBuildFile; fileRef = E79E7E5F204FA3D800AC0178 /* pause.png */; };
+		E79E7E64204FA41D00AC0178 /* flower.png in Resources */ = {isa = PBXBuildFile; fileRef = E79E7E61204FA41D00AC0178 /* flower.png */; };
+		E79E7E65204FA41D00AC0178 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = E79E7E62204FA41D00AC0178 /* logo.png */; };
+		E79E7E66204FA41D00AC0178 /* pillar.png in Resources */ = {isa = PBXBuildFile; fileRef = E79E7E63204FA41D00AC0178 /* pillar.png */; };
+		E79E7E68204FA44000AC0178 /* AppIcon.appiconset in Resources */ = {isa = PBXBuildFile; fileRef = E79E7E67204FA44000AC0178 /* AppIcon.appiconset */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,7 +55,6 @@
 		E79E7E21204F974900AC0178 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		E79E7E23204F974900AC0178 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		E79E7E26204F974900AC0178 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		E79E7E28204F974900AC0178 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E79E7E2B204F974900AC0178 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E79E7E2D204F974900AC0178 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E79E7E32204F974900AC0178 /* BeetleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BeetleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -53,6 +63,18 @@
 		E79E7E3D204F974900AC0178 /* BeetleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BeetleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E79E7E41204F974900AC0178 /* BeetleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeetleUITests.swift; sourceTree = "<group>"; };
 		E79E7E43204F974900AC0178 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E79E7E4F204F97BF00AC0178 /* player.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = player.atlas; sourceTree = "<group>"; };
+		E79E7E51204F97C900AC0178 /* CoinSound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = CoinSound.mp3; sourceTree = "<group>"; };
+		E79E7E53204F9BAF00AC0178 /* GameElements.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameElements.swift; sourceTree = "<group>"; };
+		E79E7E57204FA36200AC0178 /* flower.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = flower.png; sourceTree = "<group>"; };
+		E79E7E59204FA36E00AC0178 /* bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg.png; sourceTree = "<group>"; };
+		E79E7E5B204FA39500AC0178 /* restart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = restart.png; sourceTree = "<group>"; };
+		E79E7E5D204FA3AD00AC0178 /* play.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = play.png; sourceTree = "<group>"; };
+		E79E7E5F204FA3D800AC0178 /* pause.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pause.png; sourceTree = "<group>"; };
+		E79E7E61204FA41D00AC0178 /* flower.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = flower.png; path = ../../../../Downloads/ProjectFiles/Assets/flower.png; sourceTree = "<group>"; };
+		E79E7E62204FA41D00AC0178 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
+		E79E7E63204FA41D00AC0178 /* pillar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pillar.png; sourceTree = "<group>"; };
+		E79E7E67204FA44000AC0178 /* AppIcon.appiconset */ = {isa = PBXFileReference; lastKnownFileType = folder; path = AppIcon.appiconset; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,10 +128,21 @@
 				E79E7E1B204F974900AC0178 /* AppDelegate.swift */,
 				E79E7E1D204F974900AC0178 /* GameScene.sks */,
 				E79E7E1F204F974900AC0178 /* Actions.sks */,
+				E79E7E4F204F97BF00AC0178 /* player.atlas */,
 				E79E7E21204F974900AC0178 /* GameScene.swift */,
 				E79E7E23204F974900AC0178 /* GameViewController.swift */,
+				E79E7E57204FA36200AC0178 /* flower.png */,
+				E79E7E53204F9BAF00AC0178 /* GameElements.swift */,
+				E79E7E59204FA36E00AC0178 /* bg.png */,
+				E79E7E5B204FA39500AC0178 /* restart.png */,
+				E79E7E51204F97C900AC0178 /* CoinSound.mp3 */,
 				E79E7E25204F974900AC0178 /* Main.storyboard */,
-				E79E7E28204F974900AC0178 /* Assets.xcassets */,
+				E79E7E5D204FA3AD00AC0178 /* play.png */,
+				E79E7E61204FA41D00AC0178 /* flower.png */,
+				E79E7E62204FA41D00AC0178 /* logo.png */,
+				E79E7E63204FA41D00AC0178 /* pillar.png */,
+				E79E7E67204FA44000AC0178 /* AppIcon.appiconset */,
+				E79E7E5F204FA3D800AC0178 /* pause.png */,
 				E79E7E2A204F974900AC0178 /* LaunchScreen.storyboard */,
 				E79E7E2D204F974900AC0178 /* Info.plist */,
 			);
@@ -241,11 +274,21 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E79E7E68204FA44000AC0178 /* AppIcon.appiconset in Resources */,
+				E79E7E52204F97C900AC0178 /* CoinSound.mp3 in Resources */,
+				E79E7E50204F97BF00AC0178 /* player.atlas in Resources */,
+				E79E7E60204FA3D900AC0178 /* pause.png in Resources */,
+				E79E7E5A204FA36E00AC0178 /* bg.png in Resources */,
+				E79E7E66204FA41D00AC0178 /* pillar.png in Resources */,
+				E79E7E65204FA41D00AC0178 /* logo.png in Resources */,
 				E79E7E27204F974900AC0178 /* Main.storyboard in Resources */,
 				E79E7E1E204F974900AC0178 /* GameScene.sks in Resources */,
-				E79E7E29204F974900AC0178 /* Assets.xcassets in Resources */,
+				E79E7E58204FA36200AC0178 /* flower.png in Resources */,
+				E79E7E5E204FA3AE00AC0178 /* play.png in Resources */,
 				E79E7E2C204F974900AC0178 /* LaunchScreen.storyboard in Resources */,
 				E79E7E20204F974900AC0178 /* Actions.sks in Resources */,
+				E79E7E5C204FA39500AC0178 /* restart.png in Resources */,
+				E79E7E64204FA41D00AC0178 /* flower.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,6 +313,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E79E7E54204F9BB000AC0178 /* GameElements.swift in Sources */,
 				E79E7E22204F974900AC0178 /* GameScene.swift in Sources */,
 				E79E7E24204F974900AC0178 /* GameViewController.swift in Sources */,
 				E79E7E1C204F974900AC0178 /* AppDelegate.swift in Sources */,
@@ -439,6 +483,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T5C2L42U5V;
 				INFOPLIST_FILE = Beetle/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = net.scclc.fab.swift.Beetle;
@@ -453,6 +498,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T5C2L42U5V;
 				INFOPLIST_FILE = Beetle/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = net.scclc.fab.swift.Beetle;

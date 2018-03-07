@@ -1,9 +1,9 @@
 //
-//  AppDelegate.swift
+//  GameScene.swift
 //  Beetle
-//
-//  Created by Diana Smetters on 3/6/18.
-//  Copyright © 2018 SCCLC Swift Fab. All rights reserved.
+//  Sample app from http://sweettutos.com/
+//  Created by Muskan on 1/22/17.
+//  Copyright © 2017 Muskan. All rights reserved.
 //
 
 import UIKit
